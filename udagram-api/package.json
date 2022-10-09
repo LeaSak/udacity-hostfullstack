@@ -2,6 +2,9 @@
   "name": "udagram-api",
   "version": "2.0.0",
   "description": "",
+  "engines": {
+    "node": "14.15.0"
+  },
   "main": "src/server.ts",
   "scripts": {
     "start": "node ./www/server.js",
@@ -39,8 +42,8 @@
     "@types/node": "^11.11.6",
     "@types/sequelize": "^4.27.44",
     "@types/validator": "^10.9.0",
-    "@typescript-eslint/eslint-plugin": "^2.19.2",
-    "@typescript-eslint/parser": "^2.19.2",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "eslint": "^6.8.0",
