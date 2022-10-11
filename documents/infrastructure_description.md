@@ -14,4 +14,4 @@ The AWS Cloud as Infrastructure as a Service (IaaS) is used for this project.
  3. Amazon S3 Buckets - to store static resources such as the frontend web application.
 
  ### Diagram
- ![](https://github.com/LeaSak/udacity-hostfullstack/blob/master/documents/infrastructure-diagram.png)
+ ![infrastructure diagram](https://github.com/LeaSak/udacity-hostfullstack/blob/main/documents/infrastructure-diagram.png?raw=true)

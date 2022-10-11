@@ -8,10 +8,13 @@ A pipeline should be built to automate the build and deploy process using Circle
 
 The project should also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
 
-The app (frontend) is publicly accessible via [frontend] (http://udacityhostfullstack4380744739.s3-website-us-east-1.amazonaws.com/home) for a limited time.
-![](https://github.com/LeaSak/udacity-hostfullstack/blob/master/documents/frontend.png)
-The backend is hosted under: [backend] (http://udagram-api-dev2.us-east-1.elasticbeanstalk.com/api/v0/feed) for a limited time.
-![](https://github.com/LeaSak/udacity-hostfullstack/blob/master/documents/frontend.png)
+The app (frontend) is publicly accessible via http://udacityhostfullstack4380744739.s3-website-us-east-1.amazonaws.com for a limited time.
+
+![frontend screenshot](https://github.com/LeaSak/udacity-hostfullstack/blob/main/documents/frontend.png?raw=true)
+
+The backend is hosted under: http://udagram-api-dev2.us-east-1.elasticbeanstalk.com/api/v0/feed for a limited time.
+
+![backend screenshot](https://github.com/LeaSak/udacity-hostfullstack/blob/main/documents/backend.png?raw=true)
 
 
 

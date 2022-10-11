@@ -18,16 +18,16 @@ Job "build" includes the steps:
 9. Build Backend
 
 
-Job "deploy" can only be triggered after job "hold" is complete and includes steps:
+Job "deploy" can only be triggered manually after job "hold" is complete and includes steps:
 1. Spin up environment
 2. Prepare environment variables
 3. Install Node
-4. Checkout github repo
+4. Setup EB CLI
 5. Install AWS CLI
 6. Configure AWS Access
-7. Setup EB CLI
+7. Checkout github repo
 8. Deploy Backend and Frontend App
 
 ### Diagram
 
-![](https://github.com/LeaSak/udacity-hostfullstack/blob/master/documents/pipeline-diagram.png)
+![pipeline diagram](https://github.com/LeaSak/udacity-hostfullstack/blob/main/documents/pipeline-diagram.png?raw=true)
